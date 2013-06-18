@@ -124,7 +124,8 @@ vendor/samsung/totoro/proprietary/system/lib/libasound.so:system/lib/libasound.s
 #vendor/samsung/totoro/proprietary/system/lib/libRS.so:system/lib/libRS.so \
 #vendor/samsung/totoro/proprietary/system/lib/liblzo.so:system/lib/liblzo.so \
 
-
+PRODUCT_PACKAGES += \
+                 audio.primary.totoro
 
 #mediaplayer
 PRODUCT_COPY_FILES += \
